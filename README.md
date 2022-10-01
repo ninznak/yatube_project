@@ -18,12 +18,14 @@
  9. Для сохранения специфических программ виртуального окружения, делаем команду записи в файл: ***pip freeze > requirements.txt*** (Linux : pkg-resource==000)
  10.Для запуска проекта на др компьютере, из виртуального окружения делаем ***pip install -r requirements.txt*** 
 
-```mermaid
+```
+mermaid
 graph LR;
 A[YaTube] -- LearnProcess --> B((MD file));
 A --> C(Creating Progect Folders);
 B --> D{Git PUSH};
 C --> D;
+```
 
 # Автор - Александр К.
 ## +7(926)668-88-55
