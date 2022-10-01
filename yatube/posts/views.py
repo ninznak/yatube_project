@@ -1,5 +1,3 @@
-from django.shortcuts import render
-
 from django.http import HttpResponse
 
 def index(request):
@@ -8,4 +6,3 @@ def index(request):
 def group_posts(request):
     return HttpResponse('Посты в группе')
 
-# Create your views here.
