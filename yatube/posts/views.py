@@ -11,7 +11,8 @@ def index(request):
     return render(request, template)
 
 def group_posts(request, slug):
-    return HttpResponse(f'Посты в группе {slug} !!!')
+    template = 'posts/group_list.html'
+    return render(request, template)
 
 def name(request):
     return HttpResponse('<h1 style="color: red; font-size: 45px; margin: 20%;">Привет <i><b>путник!</b></i>')
